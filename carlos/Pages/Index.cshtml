@@ -1,0 +1,20 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Carlos Delgado Prueba</h1>
+    <text>Permita leer una lista en Excel, de un par de columnas (use por favor alguna versión de ClosedXML, que se consigue por medio de NUGET)
+Que almacene esta información en una lista genérica de objetos.
+Que le pase esta lista a una función que la inserte en una base de datos, utilizando un procedimiento almacenado.
+El lenguaje de programación deberá ser C#.
+El lenguaje de base de datos 	 (por favor, guarde en la solución los scripts que utilizó para recrear los objetos de base de datos que necesite).
+La interfaz puede ser indistintamente web o escritorio</text>
+</div>
+
+<form method="post" enctype="multipart/form-data">
+    <input type="file" name="archivo" />
+    <input type="submit" value="Subir archivo" />
+</form>
